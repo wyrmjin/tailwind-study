@@ -1,0 +1,11 @@
+{
+  "currentStage": 6,
+  "stages": [
+    { "id": 1, "name": "基础概念", "status": "completed", "completedTopics": ["utility-first", "spacing", "colors"], "notes": "完成了名片卡片练习" },
+    { "id": 2, "name": "布局核心", "status": "completed", "completedTopics": ["flexbox", "grid", "responsive", "relative-absolute-positioning"], "notes": "完成了响应式导航栏+卡片网格、文字浮层效果" },
+    { "id": 3, "name": "排版与视觉", "status": "completed", "completedTopics": ["typography", "borders", "shadows-opacity", "backgrounds"], "notes": "完成了博客文章预览卡片、用户资料卡片、定价卡片、页脚布局练习" },
+    { "id": 4, "name": "交互与状态", "status": "completed", "completedTopics": ["state-prefixes", "group-peer", "transitions-animations", "dark-mode"], "notes": "完成了图片卡片画廊 + dark mode 手动切换" },
+    { "id": 5, "name": "实战组件", "status": "completed", "completedTopics": ["modal", "dropdown", "toast", "form", "data-table"], "notes": "Modal、Dropdown、Toast(Context+动画)、ContactForm(校验+focus)、DataTable(排序+斑马纹+响应式)" },
+    { "id": 6, "name": "进阶技巧", "status": "in_progress" }
+  ]
+}
