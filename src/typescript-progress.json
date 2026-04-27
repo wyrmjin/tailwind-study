@@ -1,0 +1,61 @@
+{
+  "currentStage": 7,
+  "stages": [
+    {
+      "id": 1,
+      "name": "基础类型",
+      "status": "completed",
+      "completedTopics": ["类型注解与推断", "原始类型", "特殊类型-void与never", "any与unknown", "数组与元组", "枚举-vs-联合字面量"],
+      "notes": "typeof检查值需要引号；type用=不是:；联合字面量比enum更推荐"
+    },
+    {
+      "id": 2,
+      "name": "接口与类型别名",
+      "status": "completed",
+      "completedTopics": ["interface基础", "type类型别名", "interface-vs-type", "索引签名", "嵌套与组合"],
+      "notes": "对象形状用interface，其他用type；interface可声明合并"
+    },
+    {
+      "id": 3,
+      "name": "联合与交叉类型",
+      "status": "completed",
+      "completedTopics": ["联合类型", "字面量联合", "交叉类型", "as-const", "类型收窄初步"],
+      "notes": "typeof区分基础类型(string/number)，===区分具体字面量值(loading/success)"
+    },
+    {
+      "id": 4,
+      "name": "函数类型",
+      "status": "completed",
+      "completedTopics": ["函数类型表达式", "可选参数与默认值", "剩余参数", "函数重载", "箭头函数类型"],
+      "notes": "function声明返回值用冒号，箭头函数用=>；函数类型定义需要参数名；类型已指定时实现中不需重复"
+    },
+    {
+      "id": 5,
+      "name": "泛型",
+      "status": "completed",
+      "completedTopics": ["泛型基础", "泛型约束extends", "多个泛型参数", "泛型接口", "keyof操作符"],
+      "notes": "返回类型要覆盖所有可能值(T|undefined)；interface方法推荐用方法语法而非属性语法"
+    },
+    {
+      "id": 6,
+      "name": "类型守卫与收窄",
+      "status": "completed",
+      "completedTopics": ["typeof收窄", "instanceof收窄", "in操作符", "判别联合", "自定义类型守卫", "satisfies"],
+      "notes": "判别联合用共同属性(kind/type)区分类型；自定义守卫用value is Type收窄；NonNullable<T>排除null/undefined；typeof只认JS运行时类型(string/number等固定值)，字面量联合类型用===直接比值"
+    },
+    {
+      "id": 7,
+      "name": "类型操控",
+      "status": "in_progress",
+      "completedTopics": [],
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "name": "TypeScript + React",
+      "status": "locked",
+      "completedTopics": [],
+      "notes": ""
+    }
+  ]
+}
