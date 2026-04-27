@@ -29,3 +29,6 @@ pnpm-debug.log*
 
 # claude code (local settings only)
 .claude/settings.local.json
+
+# agent
+.agents/

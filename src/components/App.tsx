@@ -1,5 +1,6 @@
 import ContactForm from './ContactForm'
 import DataTable from './DataTable'
+import ThemeLab from './ThemeLab'
 import { ToastProvider, useToast } from './Toast'
 
 function AppContent() {
@@ -32,9 +33,10 @@ function AppContent() {
 function App() {
   return (
     <ToastProvider>
-      <AppContent />
-      <ContactForm />
-      <DataTable />
+      {/* <AppContent /> */}
+      {/* <ContactForm /> */}
+      {/* <DataTable /> */}
+      <ThemeLab />
     </ToastProvider>
   )
 }

@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
-import { classNames } from 'utils'
+import { classNames } from '@/utils'
 
 type ToastType = 'success' | 'error' | 'warning'
 

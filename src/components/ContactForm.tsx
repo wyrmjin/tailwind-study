@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react'
-import { classNames } from 'utils'
+import { classNames } from '@/utils'
 import { useToast } from './Toast'
 
 interface Errors {
